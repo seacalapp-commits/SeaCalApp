@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaCal — Terms &amp; Conditions</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+      color: #1a1a1a;
+      line-height: 1.75;
+      font-size: 16px;
+    }
+    h1 { font-size: 30px; color: #0D2B4E; margin-bottom: 6px; }
+    h2 { font-size: 19px; color: #0D2B4E; margin-top: 40px; margin-bottom: 12px;
+         border-bottom: 1px solid #dde4ed; padding-bottom: 6px; }
+    h3 { font-size: 16px; color: #1a3a5c; margin-top: 20px; margin-bottom: 8px; }
+    p  { margin-bottom: 12px; color: #333; }
+    ul { padding-left: 22px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; color: #333; }
+    a  { color: #1565C0; }
+    .meta    { color: #666; font-size: 14px; margin-bottom: 28px; }
+    .callout {
+      background: #EEF4FB;
+      border-left: 4px solid #0D2B4E;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 24px 0;
+      color: #0D2B4E;
+      font-size: 15px;
+    }
+    .callout strong { display: block; margin-bottom: 4px; }
+    .callout-warn {
+      background: #FFF8EC;
+      border-left: 4px solid #B45309;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 24px 0;
+      color: #7C3D0A;
+      font-size: 15px;
+    }
+    .callout-warn strong { display: block; margin-bottom: 4px; }
+    footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #dde4ed;
+             font-size: 13px; color: #888; }
+
+    @media (prefers-color-scheme: dark) {
+      body       { background: #0F1923; color: #dce3ec; }
+      h1, h2     { color: #6EA8E0; border-color: #1e3a54; }
+      h3         { color: #a8c8f0; }
+      p, li      { color: #ccd6e0; }
+      a          { color: #6EA8E0; }
+      .meta      { color: #8a9aaa; }
+      .callout   { background: #1B2A3E; border-color: #6EA8E0; color: #a8c8f0; }
+      .callout-warn { background: #2A1E0F; border-color: #D97706; color: #FBD38D; }
+      footer     { border-color: #1e3a54; color: #6a7a8a; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SeaCal — Terms &amp; Conditions</h1>
+  <p class="meta">
+    Effective date: 22 May 2026 &nbsp;·&nbsp; Last updated: 22 May 2026<br>
+    Developer: Gavin Kerr, Ireland
+  </p>
+
+  <div class="callout">
+    <strong>Important notice</strong>
+    SeaCal is a personal reference tool only. It is not an official maritime record-keeping
+    system and must not be used as a substitute for verified sea service records, official
+    documentation, or professional advice. Do not rely on this application as your sole source
+    of truth for career, compliance, or tax purposes.
+  </div>
+
+  <!-- ── 1 ── -->
+  <h2>1. Acceptance of Terms</h2>
+  <p>
+    By downloading, installing, or using the SeaCal application ("the App"), you agree to be
+    bound by these Terms and Conditions ("Terms"). If you do not agree, you must discontinue
+    use of the App immediately.
+  </p>
+  <p>
+    These Terms apply to all features of the App, including the sea-time tracker,
+    PDR progress calculator, certificate manager, and days-in/out-of-country counter.
+  </p>
+
+  <!-- ── 2 ── -->
+  <h2>2. Nature of the Service</h2>
+  <p>
+    SeaCal is designed as a personal organisational aid for maritime seafarers. It is intended
+    to help you maintain a private, informal record of your sea service, certificates, and
+    travel patterns. It is <strong>not</strong>:
+  </p>
+  <ul>
+    <li>An official maritime record-keeping system approved by any flag state or maritime authority</li>
+    <li>A replacement for your official discharge book, Certificate of Competency (COC), or any
+        flag-state approved logbook</li>
+    <li>A regulated financial, legal, or tax-advisory service</li>
+    <li>A substitute for advice from a qualified marine superintendent, maritime lawyer, or accountant</li>
+  </ul>
+
+  <!-- ── 3 ── -->
+  <h2>3. No Guarantee of Accuracy</h2>
+
+  <div class="callout-warn">
+    <strong>Reference only — calculations may contain errors</strong>
+    Sea-time totals, PDR ratings, rank summaries, and all other figures produced by the App
+    are estimates derived from data you enter. The App may contain bugs, rounding differences,
+    or incorrect assumptions. You should not use these figures without independent verification
+    against your official records.
+  </div>
+
+  <p>
+    The developer makes no representation or warranty, express or implied, that any calculation,
+    figure, or summary produced by the App is accurate, complete, or up to date. Calculations
+    use standardised assumptions (e.g. 1 month = 30.4375 days) that may not match the precise
+    rules applied by your flag state, employer, or maritime authority.
+  </p>
+  <p>
+    You acknowledge that it is your sole responsibility to verify all sea-service figures against
+    primary sources — including your discharge book, ship's log, employment contracts, and payslips
+    — before submitting any figures to a maritime authority or employer.
+  </p>
+
+  <!-- ── 4 ── -->
+  <h2>4. Sea Time and PDR Records</h2>
+  <p>
+    The App's sea-time and PDR progress features are provided to help you maintain a personal
+    overview of your service history. They do not constitute an official record for the purposes
+    of any Certificate of Competency application, revalidation, or STCW compliance assessment.
+  </p>
+  <ul>
+    <li>Always retain and rely on original documentation (discharge books, contracts, company
+        sea-service letters) for any official purpose.</li>
+    <li>PDR eligibility and rating boundaries are configurable by the user and may differ from
+        the criteria applied by your national maritime administration.</li>
+    <li>Do not submit figures from this App to the MCA, DFFE, or any other authority without
+        cross-checking against your verified official records.</li>
+  </ul>
+
+  <!-- ── 5 ── -->
+  <h2>5. Tax and Days Tracker</h2>
+
+  <div class="callout-warn">
+    <strong>Not tax advice — consult a qualified adviser</strong>
+    The days-in/out-of-country counter is a convenience tool only. It does not constitute
+    tax advice and must not be used as the basis for any tax filing, residency determination,
+    or financial decision.
+  </div>
+
+  <p>
+    Tax residency, liability, and the treatment of seafarers' earnings are complex matters
+    that depend on your personal circumstances, the applicable double-taxation treaties between
+    countries, and the law as it applies at the relevant time. These rules change, and the App
+    is not updated automatically to reflect legislative changes.
+  </p>
+  <p>
+    You should always consult a qualified tax adviser or accountant before making any decisions
+    regarding your tax residency status or obligations. The developer accepts no liability for
+    any financial loss, penalty, or liability arising from reliance on the day-count figures
+    produced by the App.
+  </p>
+
+  <!-- ── 6 ── -->
+  <h2>6. No Professional or Legal Advice</h2>
+  <p>
+    Nothing in the App, or in any communication from the developer, constitutes professional
+    maritime, legal, financial, or tax advice. You should seek independent advice from a
+    qualified professional before making decisions that may affect your career, income, or
+    legal obligations.
+  </p>
+
+  <!-- ── 7 ── -->
+  <h2>7. Data and Backup</h2>
+  <p>
+    All data you enter into the App is stored locally on your device and is not transmitted
+    to the developer or any third party (see our
+    <a href="https://gavck93.github.io/SeaCal/privacy-policy.html">Privacy Policy</a>
+    for full details). As a consequence:
+  </p>
+  <ul>
+    <li>The developer has no ability to recover your data in the event of device loss, damage,
+        or factory reset.</li>
+    <li>You are solely responsible for maintaining backups of your data using the App's built-in
+        export feature or any other means available to you.</li>
+    <li>Uninstalling the App will permanently delete all locally stored data.</li>
+  </ul>
+  <p>
+    The developer accepts no liability for any loss of data, however caused.
+  </p>
+
+  <!-- ── 8 ── -->
+  <h2>8. Limitation of Liability</h2>
+  <p>
+    To the fullest extent permitted by applicable law, the developer (Gavin Kerr) shall not
+    be liable for any direct, indirect, incidental, special, consequential, or exemplary
+    damages, including but not limited to:
+  </p>
+  <ul>
+    <li>Loss of earnings, employment, or professional certification</li>
+    <li>Incorrect tax filings or financial penalties</li>
+    <li>Loss of data or failure of the App to function as expected</li>
+    <li>Any other loss or damage arising out of or in connection with your use of, or inability
+        to use, the App</li>
+  </ul>
+  <p>
+    Where liability cannot be excluded by law, it is limited to the maximum extent permitted
+    in the jurisdiction in which you reside.
+  </p>
+
+  <!-- ── 9 ── -->
+  <h2>9. Changes to the App and These Terms</h2>
+  <p>
+    The developer reserves the right to modify, suspend, or discontinue any part of the App
+    at any time without notice. These Terms may be updated from time to time. The current
+    version will always be accessible at the URL from which you are reading this document.
+    Continued use of the App following an update to these Terms constitutes your acceptance
+    of the revised Terms.
+  </p>
+
+  <!-- ── 10 ── -->
+  <h2>10. Governing Law</h2>
+  <p>
+    These Terms are governed by and construed in accordance with the laws of the
+    <strong>Republic of Ireland</strong>. Any dispute arising in connection with these Terms
+    shall be subject to the exclusive jurisdiction of the courts of Ireland, unless otherwise
+    required by applicable consumer protection law in your country of residence.
+  </p>
+
+  <!-- ── 11 ── -->
+  <h2>11. Contact</h2>
+  <p>
+    If you have any questions about these Terms, please contact:
+  </p>
+  <p>
+    <strong>Gavin Kerr</strong><br>
+    <a href="mailto:gavck93@hotmail.com">gavck93@hotmail.com</a>
+  </p>
+
+  <footer>
+    SeaCal &copy; 2026 Gavin Kerr &nbsp;·&nbsp;
+    <a href="https://gavck93.github.io/SeaCal/privacy-policy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    Terms &amp; Conditions
+  </footer>
+
+</body>
+</html>
