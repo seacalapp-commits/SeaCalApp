@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeaCal — Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+      color: #1a1a1a;
+      line-height: 1.75;
+      font-size: 16px;
+    }
+    h1 { font-size: 30px; color: #0D2B4E; margin-bottom: 6px; }
+    h2 { font-size: 19px; color: #0D2B4E; margin-top: 40px; margin-bottom: 12px;
+         border-bottom: 1px solid #dde4ed; padding-bottom: 6px; }
+    h3 { font-size: 16px; color: #1a3a5c; margin-top: 20px; margin-bottom: 8px; }
+    p  { margin-bottom: 12px; color: #333; }
+    ul { padding-left: 22px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; color: #333; }
+    a  { color: #1565C0; }
+    .meta    { color: #666; font-size: 14px; margin-bottom: 28px; }
+    .callout {
+      background: #EEF4FB;
+      border-left: 4px solid #0D2B4E;
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 24px 0;
+      color: #0D2B4E;
+      font-size: 15px;
+    }
+    .callout strong { display: block; margin-bottom: 4px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th { background: #0D2B4E; color: #fff; text-align: left; padding: 10px 14px; }
+    td { padding: 9px 14px; border-bottom: 1px solid #e8edf4; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f7f9fc; }
+    footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #dde4ed;
+             font-size: 13px; color: #888; }
+
+    @media (prefers-color-scheme: dark) {
+      body       { background: #0F1923; color: #dce3ec; }
+      h1, h2     { color: #6EA8E0; border-color: #1e3a54; }
+      h3         { color: #a8c8f0; }
+      p, li      { color: #ccd6e0; }
+      a          { color: #6EA8E0; }
+      .meta      { color: #8a9aaa; }
+      .callout   { background: #1B2A3E; border-color: #6EA8E0; color: #a8c8f0; }
+      th         { background: #1B2A3E; }
+      td         { border-color: #1e3a54; }
+      tr:nth-child(even) td { background: #162330; }
+      footer     { border-color: #1e3a54; color: #6a7a8a; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SeaCal — Privacy Policy</h1>
+  <p class="meta">
+    Effective date: 20 May 2026 &nbsp;·&nbsp; Last updated: 20 May 2026<br>
+    Developer: Gavin Kerr, Ireland
+  </p>
+
+  <div class="callout">
+    <strong>Plain-English summary</strong>
+    Your maritime records — sea time, certificates, days, and your profile — never leave your device.
+    We collect only anonymous, non-identifiable usage analytics and serve standard mobile ads.
+    Neither has any access to the data you enter into SeaCal.
+  </div>
+
+  <!-- ── 1 ── -->
+  <h2>1. Who We Are</h2>
+  <p>
+    SeaCal is developed and published by <strong>Gavin Kerr</strong>, Ireland.
+    For the purposes of the EU General Data Protection Regulation (GDPR) and the
+    Irish Data Protection Acts 1988–2018, Gavin Kerr is the <strong>data controller</strong>
+    for any personal data processed in connection with this application.
+  </p>
+  <p>
+    For users in the United Kingdom, this policy also applies under the
+    <strong>UK General Data Protection Regulation (UK GDPR)</strong> as retained and
+    amended by the <strong>Data Protection Act 2018</strong>. The UK GDPR mirrors the
+    EU GDPR in structure and rights; all obligations and protections described in this
+    policy apply equally to UK residents.
+  </p>
+  <p><strong>Contact:</strong> <a href="mailto:gavck93@hotmail.com">gavck93@hotmail.com</a></p>
+
+  <!-- ── 2 ── -->
+  <h2>2. Data That Never Leaves Your Device</h2>
+  <p>
+    All of the following is stored exclusively using your device's local storage.
+    It is never transmitted to our servers, third parties, or any cloud service:
+  </p>
+  <ul>
+    <li>Sea time voyage records (ships, ranks, departments, dates)</li>
+    <li>Certificate details and any attached images or PDFs</li>
+    <li>In-country and out-of-country day entries</li>
+    <li>Personal profile (name, rank, department, COC history)</li>
+    <li>Countdown timers and packing lists</li>
+    <li>App settings, preferences, and theme choices</li>
+  </ul>
+  <p>
+    When you use the built-in backup feature, an export file is created
+    <strong>on your device</strong> and shared only to destinations you
+    explicitly select (e-mail, iCloud, Google Drive, etc.).
+    We never receive or have access to a copy of your backup.
+  </p>
+
+  <!-- ── 3 ── -->
+  <h2>3. Data We Do Collect</h2>
+
+  <h3>3a. Anonymous Usage Analytics — Google Firebase Analytics</h3>
+  <p>
+    We use <strong>Google Firebase Analytics</strong> to understand how the app
+    is used in aggregate so we can improve it. The data collected is anonymous
+    and non-identifiable; it includes:
+  </p>
+  <ul>
+    <li>Which screens are visited and which features are used
+        (the fact a screen was opened — not what you typed or entered)</li>
+    <li>Session duration and app open / close events</li>
+    <li>Device model, operating system version, and app version</li>
+    <li>Country or region (derived from IP address — never precise location)</li>
+    <li>A randomly generated Firebase installation identifier
+        (reset when you reinstall the app; not linked to your name or identity)</li>
+  </ul>
+  <p>
+    Firebase Analytics does <strong>not</strong> receive any maritime data
+    described in Section 2.
+    Google processes this data under its own privacy policy
+    (<a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a>).
+  </p>
+
+  <h3>3b. Advertising — Google AdMob</h3>
+  <p>
+    SeaCal is free to use and is supported by advertising served by
+    <strong>Google AdMob</strong>. To serve relevant ads, Google may use:
+  </p>
+  <ul>
+    <li>
+      <strong>iOS:</strong> your device's Advertising Identifier (IDFA),
+      but only if you grant permission via the
+      App Tracking Transparency (ATT) prompt shown on first launch.
+      If you decline, only non-personalised ads are shown.
+    </li>
+    <li>
+      <strong>Android:</strong> your device's Google Advertising ID (GAID).
+      You can reset or delete this in your device's Google settings.
+    </li>
+    <li>Approximate location (country / region) and device type.</li>
+  </ul>
+  <p>
+    AdMob does <strong>not</strong> receive any of the maritime data you
+    enter into SeaCal.
+    Google's advertising privacy policy is at
+    <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.
+  </p>
+  <p><strong>How to opt out of personalised ads:</strong></p>
+  <ul>
+    <li>
+      <strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking →
+      disable SeaCal; or Settings → Privacy &amp; Security → Apple Advertising →
+      turn off Personalised Ads.
+    </li>
+    <li>
+      <strong>Android:</strong> Settings → Google → Ads → Delete advertising ID.
+    </li>
+  </ul>
+
+  <h3>3c. App Configuration Check</h3>
+  <p>
+    Once every seven days the app makes a brief outbound HTTPS request to fetch
+    a small configuration file hosted on GitHub Pages. This request contains
+    <strong>no personal data</strong> — it carries no cookies, user identifiers,
+    or content from your records. It is used only to confirm the app is up to
+    date and whether certain features (such as ads) are enabled.
+  </p>
+
+  <!-- ── 4 ── -->
+  <h2>4. Summary Table</h2>
+  <table>
+    <thead>
+      <tr><th>Data type</th><th>Leaves your device?</th><th>Shared with</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Maritime records, certificates, days, profile</td>
+        <td>Never</td>
+        <td>Nobody</td>
+        <td>App functionality</td>
+      </tr>
+      <tr>
+        <td>Anonymous usage events (screen views, sessions)</td>
+        <td>Yes</td>
+        <td>Google (Firebase)</td>
+        <td>App improvement</td>
+      </tr>
+      <tr>
+        <td>Ad identifier (IDFA / GAID)</td>
+        <td>Yes (with consent on iOS)</td>
+        <td>Google (AdMob)</td>
+        <td>Ad personalisation</td>
+      </tr>
+      <tr>
+        <td>Device model, OS version, country</td>
+        <td>Yes</td>
+        <td>Google (Firebase / AdMob)</td>
+        <td>Analytics &amp; ads</td>
+      </tr>
+      <tr>
+        <td>Config fetch (HTTPS GET, no body)</td>
+        <td>Yes</td>
+        <td>GitHub (read-only)</td>
+        <td>App version check</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ── 5 ── -->
+  <h2>5. Legal Basis for Processing (EU GDPR &amp; UK GDPR — Article 6)</h2>
+  <ul>
+    <li>
+      <strong>Legitimate interests</strong> (Art. 6(1)(f)) — anonymous usage
+      analytics used to understand feature adoption and fix issues, where this
+      does not override your fundamental rights and freedoms.
+    </li>
+    <li>
+      <strong>Consent</strong> (Art. 6(1)(a)) — personalised advertising on iOS,
+      obtained via the App Tracking Transparency prompt before any advertising
+      identifier is read. You may withdraw consent at any time through your
+      device privacy settings without affecting any prior use of the app.
+    </li>
+  </ul>
+
+  <!-- ── 6 ── -->
+  <h2>6. Data Retention</h2>
+  <ul>
+    <li>
+      <strong>Your maritime data:</strong> retained on your device until you
+      delete the app or clear its storage. We hold no copy.
+    </li>
+    <li>
+      <strong>Firebase Analytics data:</strong> retained by Google for up to
+      14 months by default, then automatically deleted.
+    </li>
+    <li>
+      <strong>AdMob data:</strong> retained by Google in accordance with its
+      own data retention schedule.
+    </li>
+  </ul>
+
+  <!-- ── 7 ── -->
+  <h2>7. International Data Transfers</h2>
+  <p>
+    Anonymous analytics and advertising data processed by Google may be
+    transferred to and stored on servers outside the European Economic Area (EEA).
+    Google complies with EU data transfer requirements through
+    Standard Contractual Clauses (SCCs) approved by the European Commission.
+  </p>
+  <p>
+    For users in the United Kingdom, data transferred outside the UK is governed
+    separately under UK GDPR. Google uses either
+    <strong>UK International Data Transfer Agreements (IDTAs)</strong> or the
+    <strong>UK Addendum to the EU Standard Contractual Clauses</strong>,
+    both approved by the UK Information Commissioner's Office (ICO), to safeguard
+    transfers of UK residents' data to servers outside the UK.
+  </p>
+
+  <!-- ── 8 ── -->
+  <h2>8. Your Rights Under GDPR</h2>
+  <p>
+    As a resident of the EU or UK you have the following rights.
+    To exercise any of them, contact us at
+    <a href="mailto:gavck93@hotmail.com">gavck93@hotmail.com</a>.
+    We will respond within 30 days.
+  </p>
+  <ul>
+    <li><strong>Right of access</strong> — request a copy of any personal data we hold about you.</li>
+    <li><strong>Right to erasure ("right to be forgotten")</strong> — request deletion of your data.
+        For data on your device, delete the app. For Firebase / AdMob data, contact us
+        and we will submit a deletion request to Google on your behalf.</li>
+    <li><strong>Right to restriction</strong> — request that we limit how we process your data
+        while a dispute is resolved.</li>
+    <li><strong>Right to object</strong> — object to processing based on legitimate interests
+        (i.e. analytics). We will cease unless we can demonstrate compelling grounds.</li>
+    <li><strong>Right to data portability</strong> — receive your on-device data in a
+        machine-readable format via the app's built-in export feature.</li>
+    <li><strong>Right to withdraw consent</strong> — disable ad tracking in your device
+        settings at any time.</li>
+    <li>
+      <strong>Right to lodge a complaint</strong> — depending on where you are located,
+      you may complain to your national supervisory authority:
+      <ul style="margin-top:6px;">
+        <li>
+          <strong>EU / Ireland:</strong>
+          <a href="https://www.dataprotection.ie" target="_blank">
+            Data Protection Commission (DPC) — dataprotection.ie
+          </a>
+        </li>
+        <li>
+          <strong>United Kingdom:</strong>
+          <a href="https://ico.org.uk/make-a-complaint" target="_blank">
+            Information Commissioner's Office (ICO) — ico.org.uk
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- ── 9 ── -->
+  <h2>9. Children's Privacy</h2>
+  <p>
+    SeaCal is designed for maritime professionals aged 16 and over.
+    We do not knowingly collect personal data from anyone under 16.
+    If you believe a child has provided personal data through the app,
+    please contact us at
+    <a href="mailto:gavck93@hotmail.com">gavck93@hotmail.com</a>
+    and we will take steps to delete it promptly.
+  </p>
+
+  <!-- ── 10 ── -->
+  <h2>10. Third-Party Services</h2>
+  <p>The following third-party services may process data as described above:</p>
+  <ul>
+    <li>
+      <strong>Google Firebase Analytics</strong> (Google LLC, USA) —
+      <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a>
+    </li>
+    <li>
+      <strong>Google AdMob</strong> (Google LLC, USA) —
+      <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>
+    </li>
+    <li>
+      <strong>GitHub Pages</strong> (GitHub Inc., USA) — hosts the read-only configuration
+      file; only your device's IP address is visible to GitHub during the fetch.
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank">GitHub Privacy Statement</a>
+    </li>
+  </ul>
+  <p>No other third parties receive data from this application.</p>
+
+  <!-- ── 11 ── -->
+  <h2>11. Changes to This Policy</h2>
+  <p>
+    We may update this policy as the app evolves — for example if paid features
+    or in-app purchases are introduced. Material changes will be reflected in an
+    updated "Last updated" date at the top of this page.
+    Continued use of the app after changes are posted constitutes your
+    acceptance of the revised policy.
+  </p>
+
+  <!-- ── 12 ── -->
+  <h2>12. Contact</h2>
+  <p>For any privacy-related questions, requests, or complaints:</p>
+  <p>
+    <strong>Gavin Kerr</strong><br>
+    Ireland<br>
+    <a href="mailto:gavck93@hotmail.com">gavck93@hotmail.com</a>
+  </p>
+
+  <footer>
+    SeaCal &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp; Effective 20 May 2026
+  </footer>
+
+</body>
+</html>
