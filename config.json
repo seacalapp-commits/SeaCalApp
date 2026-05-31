@@ -2,7 +2,7 @@
   "minAppVersion":        "1.0.0",
   "announcement":         "",
   "csvVersion":           1,
-  "adsEnabled":           false,
+  "adsEnabled":           true,
   "certAdGatingEnabled":  false,
   "certFreeLimit":        5
 }
