@@ -3,6 +3,6 @@
   "announcement":         "",
   "csvVersion":           1,
   "adsEnabled":           true,
-  "certAdGatingEnabled":  false,
+  "certAdGatingEnabled":  true,
   "certFreeLimit":        5
 }
