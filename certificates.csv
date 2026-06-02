@@ -1,0 +1,33 @@
+Category,Certificate,Convention / Regulation,Required by Department,Required by Rank,Typical Validity
+Unsorted,Basic Safety Training (BST),STCW Reg VI/1,All Crew,All,5 years
+Survival,Proficiency in Survival Craft and Rescue Boats (PSCRB),STCW Reg VI/2-1,Deck|Engine|Electro-Technical,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Fire,Advanced Fire Fighting (AFF),STCW Reg VI/3,Deck|Engine,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Medical,Medical First Aid (MEFA),STCW Reg VI/4-1,Deck|Engine,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Medical,Medical Care (MC),STCW Reg VI/4-2,Deck,Chief Mate|Master,5 years
+COC,Officer of the Watch (OOW) Certificate,STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer,5 years
+COC,Chief Mate Certificate,STCW Reg II/2,Deck,Chief Mate,5 years
+COC,Master Certificate,STCW Reg II/2,Deck,Master,5 years
+Equipment,GMDSS General Operator Certificate (GOC),ITU / STCW Reg IV/2,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,Lifetime
+Equipment,Radar Observation and Plotting,STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Equipment,Automatic Radar Plotting Aids (ARPA),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Management,Bridge Resource Management (BRM),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Equipment,Electronic Chart Display and Information System (ECDIS),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Management,Crowd Management,STCW Reg V/2,All Crew,All,5 years
+Management,Crisis Management and Human Behaviour,STCW Reg V/2,All Crew,Chief Mate|Master|Senior Officers,5 years
+Unsorted,Passenger Ship Safety Training,STCW Reg V/2,All Crew,All,5 years
+Security,Security Awareness Training (SAT),ISPS / STCW Reg VI/6,All Crew,All,5 years
+Security,Ship Security Officer (SSO),ISPS / STCW Reg VI/5,Deck,Chief Mate|Master|Designated SSO,5 years
+Survival,Proficiency in Fast Rescue Boats (FRB),STCW Reg VI/2-2,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Equipment,High Voltage Safety,Company / Flag State,Engine|Electro-Technical,Chief Engineer|Second Engineer|Electro-Technical Officer,5 years
+COC,ETO Certificate,STCW Reg III/6,Electro-Technical,Electro-Technical Officer,5 years
+Management,Engine Room Resource Management (ERM),STCW Reg III/2,Engine,Second Engineer|First Engineer|Chief Engineer,5 years
+COC,Officer in Charge of an Engineering Watch,STCW Reg III/1,Engine,Fourth Engineer|Third Engineer|Second Engineer,5 years
+COC,Chief Engineer Certificate,STCW Reg III/2,Engine,Chief Engineer,5 years
+Food,Food Safety Awareness,Flag State / MLC,Catering|Hospitality,All,3 years
+Survival,Personal Survival Techniques (PST),STCW Reg VI/1,All Crew,All,5 years
+Medical,Elementary First Aid (EFA),STCW Reg VI/1,All Crew,All,5 years
+Fire,Fire Prevention and Fire Fighting (FPFF),STCW Reg VI/1,All Crew,All,5 years
+Management,Personal Safety and Social Responsibilities (PSSR),STCW Reg VI/1,All Crew,All,5 years
+Personal, Medical fitness (unrestricted),,All Crew,All,2 years
+Personal, Medical fitness (1 year - restricted),,All Crew,All,1 years
+Personal, Medical fitness (6 month - restricted),,All Crew,All, 
