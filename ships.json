@@ -1,0 +1,8 @@
+[
+  {"company": "Cunard", "ships": ["Queen Mary 2", "Queen Elizabeth", "Queen Victoria", "Queen Anne"]},
+  {"company": "P&O Cruises", "ships": ["Britannia", "Aurora", "Arcadia", "Arvia", "Azura", "Ventura", "Iona"]},
+  {"company": "Princess", "ships":["Star Princess", "Sun Princess", "Discovery Princess", "Enchanted Princess"]},
+  {"company": "Holland America", "ships":["Rotterdam", "Nieuw Statendam"]},
+  {"company": "Seabourne", "ships":["Seabourn Pursuit"]},
+  {"company": "Seabourne", "ships":["Sea Princess"]}
+]
