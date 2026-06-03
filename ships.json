@@ -9,18 +9,18 @@
     },
     { 
         "company": "Princess", 
-        "ships":["Star Princess", "Sun Princess", "Discovery Princess", "Enchanted Princess"]
+        "ships":["Sun Princess", "Star Princess", "Discovery Princess", "Enchanted Princess", "Sky Princess", "Majestic Princess", "Regal Princess", "Royal Princess", "Ruby Princess", "Emerald Princess", "Crown Princess", "Caribbean Princess", "Grand Princess", "Sapphire Princess", "Diamond Princess", "Island Princess", "Coral Princess"]
     },
     { 
         "company": "Holland America", 
-        "ships":["Rotterdam", "Nieuw Statendam"]
+        "ships":["Rotterdam", "Nieuw Statendam", "Koningsdam", "Nieuw Amsterdam", "Eurodam", "Noordam", "Westerdam", "Oosterdam", "Zuiderdam", "Zaandam", "Volendam"]
     },
     { 
         "company": "Seabourne", 
-        "ships":["Seabourn Pursuit"]
+        "ships":["Seabourn Pursuit", "Seabourn Venture", "Seabourn Ovation", "Seabourn Encore", "Seabourn Quest", "Seabourn Sojourn"]
     },
     { 
-        "company": "Seabourne", 
-        "ships":["Sea Princess"]
+        "company": "Carnival", 
+        "ships":["Carnival Jubilee", "Carnival Celebration", "Mardi Gras", "Carnival Firenze", "Carnival Venezia", "Carnival Panorama", "Carnival Horizon", "Carnival Vista","Carnival Dream", "Carnival Magic", "Carnival Breeze", "Carnival Splendor", "Carnival Freedom", "Carnival Liberty", "Carnival Valor", "Carnival Glory", "Carnival Conquest", "Carnival Radiance", "Carnival Sunrise", "Carnival Sunshine", "Carnival Luminosa", "Carnival Miracle", "Carnival Legend", "Carnival Pride", "Carnival Spirit", "Carnival Elation", "Carnival Paradise"]
     }
 ]
