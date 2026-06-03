@@ -2,6 +2,7 @@
   "minAppVersion":        "1.0.0",
   "announcement":         "",
   "csvVersion":           1,
+  "shipsVersion":         1,
   "adsEnabled":           true,
   "certAdGatingEnabled":  true,
   "certFreeLimit":        5
