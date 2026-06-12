@@ -3,7 +3,7 @@
   "announcement":         "",
   "csvVersion":           1,
   "shipsVersion":         1,
-  "adsEnabled":           true,
-  "certAdGatingEnabled":  true,
+  "adsEnabled":           false,
+  "certAdGatingEnabled":  false,
   "certFreeLimit":        5
 }
