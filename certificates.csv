@@ -2,7 +2,8 @@ Category,Certificate,Convention / Regulation,Required by Department,Required by 
 Unsorted,Basic Safety Training (BST),STCW Reg VI/1,All Crew,All,5 years
 Survival,Proficiency in Survival Craft and Rescue Boats (PSCRB),STCW Reg VI/2-1,Deck|Engine|Electro-Technical,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
 Fire,Advanced Fire Fighting (AFF),STCW Reg VI/3,Deck|Engine,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
-Medical,Medical First Aid (MEFA),STCW Reg VI/4-1,Deck|Engine,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
+Medical,Elementary First Aid (MEFA),STCW Reg VI/4-1,Deck|Engine,Third Officer|Second Officer|First Officer|Chief Mate|Master,Lifetime
+Medical,Medical First Aid (MEFA),STCW Reg VI/4-1,Deck|Engine,Third Officer|Second Officer|First Officer|Chief Mate|Master,Lifetime
 Medical,Medical Care (MC),STCW Reg VI/4-2,Deck,Chief Mate|Master,5 years
 COC,Officer of the Watch (OOW) Certificate,STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer,5 years
 COC,Chief Mate Certificate,STCW Reg II/2,Deck,Chief Mate,5 years
@@ -30,4 +31,4 @@ Fire,Fire Prevention and Fire Fighting (FPFF),STCW Reg VI/1,All Crew,All,5 years
 Management,Personal Safety and Social Responsibilities (PSSR),STCW Reg VI/1,All Crew,All,5 years
 Personal, Medical fitness (unrestricted),,All Crew,All,2 years
 Personal, Medical fitness (1 year - restricted),,All Crew,All,1 years
-Personal, Medical fitness (6 month - restricted),,All Crew,All, 
+Personal, Medical fitness (6 month - restricted),,All Crew,All, 6 months
