@@ -1,9 +1,10 @@
 {
-  "minAppVersion":        "1.0.0",
-  "announcement":         "",
-  "csvVersion":           1,
-  "shipsVersion":         1,
-  "adsEnabled":           false,
-  "certAdGatingEnabled":  false,
-  "certFreeLimit":        5
+  "minAppVersion": "1.0.0",
+  "announcement": "",
+  "csvVersion": 2,
+  "shipsVersion": 1,
+  "adsEnabled": true,
+  "certAdGatingEnabled": true,
+  "certFreeLimit": 7,
+  "_hmac": "f35bd1c1a1d09d77ae66d48da75f44f58a3501112e78ea11bcfe3e67167785a9"
 }
