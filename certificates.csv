@@ -12,12 +12,12 @@ Equipment,GMDSS General Operator Certificate (GOC),ITU / STCW Reg IV/2,Deck,Thir
 Equipment,Radar Observation and Plotting,STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
 Equipment,Automatic Radar Plotting Aids (ARPA),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
 Management,Bridge Resource Management (BRM),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
-Equipment,Electronic Chart Display and Information System (ECDIS),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
-Management,Crowd Management,STCW Reg V/2,All Crew,All,5 years
-Management,Crisis Management and Human Behaviour,STCW Reg V/2,All Crew,Chief Mate|Master|Senior Officers,5 years
+Equipment,Electronic Chart Display and Information System (ECDIS),STCW Reg II/1,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,Lifetime
+Management,Crowd Management,STCW Reg V/2,All Crew,All,Lifetime
+Management,Crisis Management and Human Behaviour,STCW Reg V/2,All Crew,Chief Mate|Master|Senior Officers,Lifetime
 Unsorted,Passenger Ship Safety Training,STCW Reg V/2,All Crew,All,5 years
-Security,Security Awareness Training (SAT),ISPS / STCW Reg VI/6,All Crew,All,5 years
-Security,Ship Security Officer (SSO),ISPS / STCW Reg VI/5,Deck,Chief Mate|Master|Designated SSO,5 years
+Security,Security Awareness Training (SAT),ISPS / STCW Reg VI/6,All Crew,All,Lifetime
+Security,Ship Security Officer (SSO),ISPS / STCW Reg VI/5,Deck,Chief Mate|Master|Designated SSO,Lifetime
 Survival,Proficiency in Fast Rescue Boats (FRB),STCW Reg VI/2-2,Deck,Third Officer|Second Officer|First Officer|Chief Mate|Master,5 years
 Equipment,High Voltage Safety,Company / Flag State,Engine|Electro-Technical,Chief Engineer|Second Engineer|Electro-Technical Officer,5 years
 COC,ETO Certificate,STCW Reg III/6,Electro-Technical,Electro-Technical Officer,5 years
@@ -28,7 +28,7 @@ Food,Food Safety Awareness,Flag State / MLC,Catering|Hospitality,All,3 years
 Survival,Personal Survival Techniques (PST),STCW Reg VI/1,All Crew,All,5 years
 Medical,Elementary First Aid (EFA),STCW Reg VI/1,All Crew,All,5 years
 Fire,Fire Prevention and Fire Fighting (FPFF),STCW Reg VI/1,All Crew,All,5 years
-Management,Personal Safety and Social Responsibilities (PSSR),STCW Reg VI/1,All Crew,All,5 years
+Management,Personal Safety and Social Responsibilities (PSSR),STCW Reg VI/1,All Crew,All,Lifetime
 Personal, Medical fitness (unrestricted),,All Crew,All,2 years
 Personal, Medical fitness (1 year - restricted),,All Crew,All,1 years
 Personal, Medical fitness (6 month - restricted),,All Crew,All, 6 months
