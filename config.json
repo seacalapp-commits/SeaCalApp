@@ -1,11 +1,11 @@
 {
   "minAppVersion": "1.0.0",
   "announcement": "",
-  "csvVersion": 3,
+  "csvVersion": 2,
   "shipsVersion": 1,
   "adsEnabled": true,
   "certAdGatingEnabled": true,
-  "certFreeLimit": 5,
+  "certFreeLimit": 7,
   "countryTaxRulesVersion": 1,
   "countries": [
     {
