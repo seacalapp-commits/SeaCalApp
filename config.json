@@ -1,10 +1,59 @@
 {
   "minAppVersion": "1.0.0",
   "announcement": "",
-  "csvVersion": 2,
+  "csvVersion": 3,
   "shipsVersion": 1,
   "adsEnabled": true,
   "certAdGatingEnabled": true,
-  "certFreeLimit": 7,
-  "_hmac": "f35bd1c1a1d09d77ae66d48da75f44f58a3501112e78ea11bcfe3e67167785a9"
+  "certFreeLimit": 5,
+  "countryTaxRulesVersion": 1,
+  "countries": [
+    {
+      "name": "Ireland",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": true
+    },
+    {
+      "name": "United Kingdom",
+      "hasSedRules": true,
+      "hasIrishTwoYearTracker": false
+    },
+    {
+      "name": "Philippines",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": false,
+      "taxRuleCountryCode": "PH"
+    },
+    {
+      "name": "India",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": false,
+      "taxRuleCountryCode": "IN"
+    },
+    {
+      "name": "Poland",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": false,
+      "taxRuleCountryCode": "PL"
+    },
+    {
+      "name": "United States",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": false,
+      "taxRuleCountryCode": "US"
+    },
+    {
+      "name": "Croatia",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": false,
+      "taxRuleCountryCode": "HR"
+    },
+    {
+      "name": "South Africa",
+      "hasSedRules": false,
+      "hasIrishTwoYearTracker": false,
+      "taxRuleCountryCode": "ZA"
+    }
+  ],
+  "_hmac": "b9897419c9a2bee4a60099c31b003a834cd1ba5cdb91eb1775d9393e2f27a3fe"
 }
