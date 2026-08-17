@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1",
+  "ruleTypeRegistry": [
+    {
+      "ruleType": "dayThreshold",
+      "evaluatorClass": "evaluateDayThreshold",
+      "uiCardType": "dayThresholdTrackerCard",
+      "description": "A simple day-count test: qualifies if days in/outside the home country cross a threshold within a period."
+    },
+    {
+      "ruleType": "compoundDayRule",
+      "evaluatorClass": "evaluateCompoundDayRule",
+      "uiCardType": "compoundDayRuleCard",
+      "description": "Requires both a total day count AND a minimum continuous block of days outside the home country within a period."
+    },
+    {
+      "ruleType": "registrationStatusExemption",
+      "evaluatorClass": "evaluateRegistrationStatus",
+      "uiCardType": "statusChecklistCard",
+      "description": "A checklist of registration/status conditions this app cannot verify automatically (vessel flag, employment papers, residency status) — shown for the user to self-confirm."
+    },
+    {
+      "ruleType": "cappedExemption",
+      "evaluatorClass": "evaluateCappedExemption",
+      "uiCardType": "cappedExemptionNoteCard",
+      "description": "An informational note describing a monetary cap on the amount of foreign income that can be exempted."
+    },
+    {
+      "ruleType": "electiveAlternativeRule",
+      "evaluatorClass": "evaluateNode (recursive dispatch over options)",
+      "uiCardType": "(delegates to each option's own card type)",
+      "description": "Qualifies if ANY ONE of a named list of alternative sub-rules is satisfied — e.g. the US FEIE's physical-presence OR bona-fide-residence tests."
+    }
+  ],
+  "countries": [
+    {
+      "countryCode": "IN",
+      "displayName": "India",
+      "currency": "INR",
+      "taxAuthorityName": "Income Tax Department (India)",
+      "schemeName": "Non-Resident Indian (NRI) seafarer residency status",
+      "taxYearStartMonth": 4,
+      "taxYearStartDay": 1,
+      "combinator": "ALL",
+      "rules": [
+        {
+          "id": "lessequal182overfinancialyear",
+          "ruleType": "dayThreshold",
+          "params": {
+            "thresholdDays": 182,
+            "direction": "belowThresholdQualifies",
+            "countInsideHome": true,
+            "periodType": "financialYear"
+          }
+        }
+      ],
+      "lastReviewed": "2026-08-16",
+      "disclaimer": "This is an estimate only, based on simplified rules, and is not tax advice. Verify your position with the Income Tax Department or a qualified Indian tax adviser.",
+      "limitations": [
+        "The full NRI seafarer exemption also requires the vessel to be foreign-flagged and salary to be received into an NRE (Non-Resident External) account — this app only tracks the day-count leg (no more than 182 days in India in the financial year); it has no data source for vessel flag or where your salary is paid.",
+        "The 182-day threshold is based on days physically present in India, regardless of reason — it is not specific to sea time."
+      ]
+    },
+    {
+      "countryCode": "PH",
+      "displayName": "Philippines",
+      "currency": "PHP",
+      "taxAuthorityName": "Bureau of Internal Revenue (BIR)",
+      "schemeName": "Overseas Filipino Worker (OFW) seafarer tax exemption",
+      "taxYearStartMonth": 1,
+      "taxYearStartDay": 1,
+      "combinator": "ALL",
+      "rules": [
+        {
+          "id": "ofwseafarerstatuscheck",
+          "ruleType": "registrationStatusExemption",
+          "params": {
+            "requiredRegistrations": [
+              "POEA_OEC",
+              "MARINA_SEAMANS_BOOK"
+            ],
+            "requiresForeignFlaggedVessel": true,
+            "excludesDomesticTrade": true
+          }
+        }
+      ],
+      "lastReviewed": "2026-08-16",
+      "disclaimer": "This is an estimate only, based on simplified rules, and is not tax advice. Philippine OFW seafarer status has no day-count test — it depends on registration and employment status this app cannot verify automatically. Confirm your status with the BIR or a qualified Philippine tax adviser.",
+      "limitations": [
+        "This is a self-check list, not a verification — the app does not check your actual OEC, Seaman's Book, or vessel registry documents.",
+        "The Philippine Overseas Employment Administration (POEA) was folded into the Department of Migrant Workers (DMW) in 2022; OEC issuance and terminology may have changed since — confirm the current process with the DMW.",
+        "Domestic (Philippine-flagged, Philippine-trade) seafaring is taxed differently and is excluded from this exemption."
+      ]
+    },
+    {
+      "countryCode": "PL",
+      "displayName": "Poland",
+      "currency": "PLN",
+      "taxAuthorityName": "Krajowa Administracja Skarbowa (KAS — Polish National Revenue Administration)",
+      "schemeName": "Seafarer income tax exemption / abolition relief",
+      "taxYearStartMonth": 1,
+      "taxYearStartDay": 1,
+      "combinator": "ANY",
+      "ruleGroups": [
+        {
+          "id": "pl-full-exemption-route",
+          "capApplies": false,
+          "note": "Full exemption for seafarers on EU/EEA-flagged vessels who spend at least 183 days a year outside Poland.",
+          "rules": [
+            {
+              "id": "pl-eu-eea-status-gate",
+              "ruleType": "registrationStatusExemption",
+              "params": {
+                "requiredRegistrations": [
+                  "EU_EEA_CITIZENSHIP",
+                  "EU_EEA_FLAG_VESSEL",
+                  "SHIPOWNER_CERTIFICATE_FILED"
+                ]
+              }
+            },
+            {
+              "id": "lessequal183overcalendaryear",
+              "ruleType": "dayThreshold",
+              "params": {
+                "thresholdDays": 183,
+                "direction": "aboveThresholdQualifies",
+                "countInsideHome": false,
+                "periodType": "taxYear"
+              }
+            }
+          ]
+        },
+        {
+          "id": "pl-abolition-relief-route",
+          "capApplies": false,
+          "note": "Abolition relief (ulga abolicyjna) for seafarers on non-EU/EEA-flagged vessels who can evidence foreign tax was actually paid.",
+          "rules": [
+            {
+              "id": "pl-abolition-relief-status",
+              "ruleType": "registrationStatusExemption",
+              "params": {
+                "requiredRegistrations": [
+                  "FOREIGN_TAX_ACTUALLY_PAID_EVIDENCE",
+                  "SHIPOWNER_NOT_ON_TAX_HAVEN_LIST"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "lastReviewed": "2026-08-16",
+      "disclaimer": "This is an estimate only, based on simplified rules, and is not tax advice. Polish seafarer tax relief has been the subject of active litigation and rule changes in recent years (including a widened qualifying-flag rule from October 2024) — this framing may already be out of date. Confirm your position with KAS or a qualified Polish tax adviser before relying on it.",
+      "limitations": [
+        "The 183-day threshold only drives the full-exemption route — both status gates (EU/EEA flag route, abolition-relief route) are self-reported checklists this app cannot verify.",
+        "Abolition relief has an annual cap on the relief amount for some income types that is not modelled here.",
+        "This area of Polish tax law is actively contested in the courts as of 2026 — treat this card as a starting point for a conversation with an adviser, not a final answer."
+      ]
+    },
+    {
+      "countryCode": "US",
+      "displayName": "United States",
+      "currency": "USD",
+      "taxAuthorityName": "Internal Revenue Service (IRS)",
+      "schemeName": "Foreign Earned Income Exclusion (FEIE)",
+      "taxYearStartMonth": 1,
+      "taxYearStartDay": 1,
+      "combinator": "ALL",
+      "rules": [
+        {
+          "id": "us-feie-elective-test",
+          "ruleType": "electiveAlternativeRule",
+          "params": {
+            "options": [
+              {
+                "name": "physicalPresenceTest",
+                "ruleType": "dayThreshold",
+                "params": {
+                  "thresholdDays": 330,
+                  "direction": "aboveThresholdQualifies",
+                  "countInsideHome": false,
+                  "periodType": "rolling12Months"
+                }
+              },
+              {
+                "name": "bonaFideResidenceTest",
+                "ruleType": "registrationStatusExemption",
+                "params": {
+                  "requiredRegistrations": [
+                    "FULL_TAX_YEAR_FOREIGN_RESIDENCE"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "lessequal130000usdfeiecap",
+          "ruleType": "cappedExemption",
+          "params": {
+            "capAmount": 130000,
+            "capCurrency": "USD",
+            "capPeriod": "taxYear",
+            "indexedAnnually": true
+          }
+        }
+      ],
+      "lastReviewed": "2026-08-16",
+      "disclaimer": "This is an estimate only, based on simplified rules, and is not tax advice. The Foreign Earned Income Exclusion cap is indexed for inflation every year — confirm the current tax year's exact figure at irs.gov before relying on the number shown here. Confirm your position with the IRS or a qualified US tax adviser.",
+      "limitations": [
+        "The Physical Presence Test tracked here uses a simplified trailing-12-months window ending today. The real test allows any 12-month period that maximizes your qualifying days — a period you (or a tax preparer) choose may qualify you sooner than this card shows.",
+        "The Bona Fide Residence Test alternative is a status/facts-and-circumstances test the IRS applies, not a day-count — it is shown here as a checklist only, not evaluated automatically.",
+        "US citizens and resident aliens must still file a US tax return reporting worldwide income even when the FEIE eliminates US tax owed on the excluded foreign earned income.",
+        "The FEIE only applies to earned income up to the cap — it does not exempt self-employment tax, and does not apply to unearned income (interest, dividends, capital gains)."
+      ]
+    },
+    {
+      "countryCode": "HR",
+      "displayName": "Croatia",
+      "currency": "EUR",
+      "taxAuthorityName": "Porezna uprava (Croatian Tax Administration)",
+      "schemeName": "Seafarer income tax exemption",
+      "taxYearStartMonth": 1,
+      "taxYearStartDay": 1,
+      "combinator": "ALL",
+      "rules": [
+        {
+          "id": "lessequal183overcalendaryear",
+          "ruleType": "dayThreshold",
+          "params": {
+            "thresholdDays": 183,
+            "direction": "aboveThresholdQualifies",
+            "countInsideHome": false,
+            "periodType": "taxYear"
+          }
+        }
+      ],
+      "lastReviewed": "2026-08-16",
+      "disclaimer": "This is an estimate only, based on simplified rules, and is not tax advice. Verify your position with the Porezna uprava or a qualified Croatian tax adviser.",
+      "limitations": [
+        "Croatian seafarers can also receive a EUR 60/day non-taxable allowance for time spent on board regardless of whether the 183-day threshold is met — this app only tracks the residency day-count test, not the allowance.",
+        "Hardship exceptions (illness, injury, death, retirement, kidnapping/detention, shipowner abandonment, or a contract that could not be completed) can mean a shortfall against the 183-day threshold is still treated as met — this app has no way to detect or apply these exceptions."
+      ]
+    },
+    {
+      "countryCode": "ZA",
+      "displayName": "South Africa",
+      "currency": "ZAR",
+      "taxAuthorityName": "South African Revenue Service (SARS)",
+      "schemeName": "Section 10(1)(o) seafarer / foreign employment income exemption",
+      "taxYearStartMonth": 3,
+      "taxYearStartDay": 1,
+      "combinator": "ANY",
+      "ruleGroups": [
+        {
+          "id": "za-simple-seafarer-exemption",
+          "capApplies": false,
+          "note": "Section 10(1)(o)(i): uncapped exemption for genuine seagoing crew who spend more than 183 days outside South Africa in the tax year, strictly limited to time spent at sea for purposes of, or in connection with, carrying on a trade.",
+          "rules": [
+            {
+              "id": "lessequal183overtaxyear",
+              "ruleType": "dayThreshold",
+              "params": {
+                "thresholdDays": 183,
+                "direction": "aboveThresholdQualifies",
+                "countInsideHome": false,
+                "periodType": "taxYear"
+              }
+            }
+          ]
+        },
+        {
+          "id": "za-general-foreign-employment-exemption",
+          "capApplies": true,
+          "note": "Section 10(1)(o)(ii): general foreign employment income exemption, capped, requiring 183 total days outside South Africa including a continuous block of at least 60 days, in any rolling 12-month period.",
+          "rules": [
+            {
+              "id": "compound183totalwith60continuous",
+              "ruleType": "compoundDayRule",
+              "params": {
+                "totalDaysThreshold": 183,
+                "continuousBlockMinDays": 60,
+                "periodType": "rolling12Months"
+              }
+            },
+            {
+              "id": "lessequal1250000zarcap",
+              "ruleType": "cappedExemption",
+              "params": {
+                "capAmount": 1250000,
+                "capCurrency": "ZAR",
+                "capPeriod": "taxYear",
+                "indexedAnnually": false
+              }
+            }
+          ]
+        }
+      ],
+      "lastReviewed": "2026-08-16",
+      "disclaimer": "This is an estimate only, based on simplified rules, and is not tax advice. Verify your position with SARS or a qualified South African tax adviser.",
+      "limitations": [
+        "The simple seafarer exemption (route A) is uncapped but strictly limited to genuine seagoing crew carrying on a trade — it may not apply to some private-vessel, yacht, or non-trading roles even if the day-count is met.",
+        "The general foreign employment exemption (route B) is capped at R1,250,000 of foreign remuneration per tax year — income above the cap is taxed in South Africa, with a credit for foreign tax paid where applicable.",
+        "Route B's rolling-12-month window is approximated here as the trailing 12 months ending today. The real test allows any qualifying 12-month period, so a different window may qualify you sooner than this card shows."
+      ]
+    }
+  ],
+  "_hmac": "f9eed47701e9cc6554c22889feed3dc7a8b184a65266b90510a535796b45adc7"
+}
