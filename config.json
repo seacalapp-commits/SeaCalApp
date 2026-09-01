@@ -1,11 +1,11 @@
 {
-  "minAppVersion": "1.0.0",
+  "minAppVersion": "1.1.0",
   "announcement": "",
-  "csvVersion": 2,
+  "csvVersion": 3,
   "shipsVersion": 1,
   "adsEnabled": true,
   "certAdGatingEnabled": true,
-  "certFreeLimit": 7,
+  "certFreeLimit": 5,
   "countryTaxRulesVersion": 1,
   "countries": [
     {
@@ -19,41 +19,11 @@
       "hasIrishTwoYearTracker": false
     },
     {
-      "name": "Philippines",
-      "hasSedRules": false,
-      "hasIrishTwoYearTracker": false,
-      "taxRuleCountryCode": "PH"
-    },
-    {
       "name": "India",
       "hasSedRules": false,
       "hasIrishTwoYearTracker": false,
       "taxRuleCountryCode": "IN"
-    },
-    {
-      "name": "Poland",
-      "hasSedRules": false,
-      "hasIrishTwoYearTracker": false,
-      "taxRuleCountryCode": "PL"
-    },
-    {
-      "name": "United States",
-      "hasSedRules": false,
-      "hasIrishTwoYearTracker": false,
-      "taxRuleCountryCode": "US"
-    },
-    {
-      "name": "Croatia",
-      "hasSedRules": false,
-      "hasIrishTwoYearTracker": false,
-      "taxRuleCountryCode": "HR"
-    },
-    {
-      "name": "South Africa",
-      "hasSedRules": false,
-      "hasIrishTwoYearTracker": false,
-      "taxRuleCountryCode": "ZA"
     }
   ],
-  "_hmac": "b9897419c9a2bee4a60099c31b003a834cd1ba5cdb91eb1775d9393e2f27a3fe"
+  "_sig_ed25519": "0d2a0ee2aacbeeafa4ad3fc54cc00732941f3bbc1b554ec8b1ca377cda3063fa1501d9f4b40d750de34605902eec0eb5c3b19f65c390a377b51638be74a9ab05"
 }
